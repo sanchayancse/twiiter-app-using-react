@@ -8,7 +8,7 @@ An application used to add Twittes and Twittes will be disappared on a perticual
 ## Project Status
 
 
-This project is deployed on Heroku. Users can Signup/Login then add Twitts. User can also choose disappare date of Twittes. On the perticular date the Twittes will be disappare.
+This project is deployed on Heroku. At first user need to Signup. Users can Signup/Login then add Twitts.User can also choose disappare date of Twittes. On the perticular date the Twittes will be disappare.
 
 ## Project View Link:
 
