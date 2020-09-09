@@ -81,7 +81,7 @@ const PostForm = (props) => {
                         <i className="fas fa-user"></i>
                     </div>
                 </div>
-                <input type="text"  className="form-control" name="tweetName" placeholder="tweet Title"
+                <input type="text"  className="form-control" name="tweetName" placeholder="Twiit Title"
                         value={values.tweetName}
                         onChange={handleInputChange}
                       
@@ -96,7 +96,7 @@ const PostForm = (props) => {
                         <i className="fas fa-user"></i>
                     </div>
                 </div>
-                <textarea type="text" className="form-control" name="tweetDesc" placeholder="Tweet desc...."
+                <textarea type="text" className="form-control" name="tweetDesc" placeholder="Twiit description...."
                     value={values.tweetDesc}
                     onChange={handleInputChange}
                 />
