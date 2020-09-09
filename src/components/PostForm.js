@@ -84,7 +84,7 @@ const PostForm = (props) => {
                 <input type="text"  className="form-control" name="tweetName" placeholder="Twiit Title"
                         value={values.tweetName}
                         onChange={handleInputChange}
-                      
+                        required
                     />
             </div>
 
@@ -99,6 +99,7 @@ const PostForm = (props) => {
                 <textarea type="text" className="form-control" name="tweetDesc" placeholder="Twiit description...."
                     value={values.tweetDesc}
                     onChange={handleInputChange}
+                    required
                 />
             </div>
 
@@ -115,6 +116,7 @@ const PostForm = (props) => {
                 <input type="date"  className="form-control" name="deleteDate" 
                         value={values.deleteDate}
                         onChange={handleInputChange}
+                        required
                       
                     />
             </div>
