@@ -81,6 +81,9 @@ const PostForm = (props) => {
                         <i className="fas fa-user"></i>
                     </div>
                 </div>
+                <label>Twiter Title </label>
+                <br></br>
+                <br></br>
                 <input type="text"  className="form-control" name="tweetName" placeholder="Twiit Title"
                         value={values.tweetName}
                         onChange={handleInputChange}
@@ -96,6 +99,9 @@ const PostForm = (props) => {
                         <i className="fas fa-user"></i>
                     </div>
                 </div>
+                <label>Twiter Description </label>
+                <br></br>
+                <br></br>
                 <textarea type="text" className="form-control" name="tweetDesc" placeholder="Twiit description...."
                     value={values.tweetDesc}
                     onChange={handleInputChange}
@@ -113,6 +119,9 @@ const PostForm = (props) => {
                         <i className="fas fa-user"></i>
                     </div>
                 </div>
+                <label>Twiter Disappare Date </label>
+                <br></br>
+                <br></br>
                 <input type="date"  className="form-control" name="deleteDate" 
                         value={values.deleteDate}
                         onChange={handleInputChange}
