@@ -40,7 +40,7 @@ class Home extends Component {
             <Breadcrumb.Item>Home</Breadcrumb.Item>
           </Breadcrumb>
           <div className="site-layout-content">
-            <Post></Post>
+            <Post/>
           </div>
         </Content>
         <Footer style={{ textAlign: "center" }}>

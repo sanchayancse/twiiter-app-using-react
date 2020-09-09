@@ -31,7 +31,7 @@ const Post = () => {
     fire
       .database()
       .ref()
-      .child("products")
+      .child("messages")
       .on("value", (snapshot) => {
         if (snapshot.val() != null) {
           setProductObjects({
@@ -45,7 +45,7 @@ const Post = () => {
       fire
         .database()
         .ref()
-        .child("products")
+        .child("messages")
         .push(obj, (err) => {
           if (err) console.log(err);
           else setCurrentId("");
@@ -54,7 +54,7 @@ const Post = () => {
       fire
         .database()
         .ref()
-        .child(`products/${currentId}`)
+        .child(`messages/${currentId}`)
         .set(obj, (err) => {
           if (err) console.log(err);
           else setCurrentId("");
@@ -66,7 +66,7 @@ const Post = () => {
       fire
         .database()
         .ref()
-        .child(`products/${key}`)
+        .child(`messages/${key}`)
         .remove((err) => {
           if (err) console.log(err);
           else setCurrentId("");
@@ -77,7 +77,7 @@ const Post = () => {
   window.onload = function deleteDta() {
     const timeNow = Moment(new Date().toDateString()).format("YYYY-MM-DD");
     console.log(timeNow);
-    const messagesRef = fire.database().ref().child("products");
+    const messagesRef = fire.database().ref().child("messages");
     messagesRef.once("value", (snapshot) => {
       snapshot.forEach((child) => {
         if (Moment(child.val()["deleteDate"]).format("YYYY-MM-DD") <= timeNow) {
