@@ -8,7 +8,7 @@ An application used to add Twittes and Twittes will be disappared on a perticual
 ## Project Status
 
 
-This project is deployed on Heroku. At first user need to Signup. Users can Signup/Login then add Twittes.User can also choose disappare date of Twittes. On the perticular date the Twittes will be disappare. After Every 20 seconds a function will check is there any Twittes need to disappare depands on the user choosen date.
+This project is deployed on Heroku. At first, users need to Signup. Users can Signup/Login then add Twittes. Users can also choose the disappear date of Twittes. On a particular date, the Twittes will be disappeared. Every 20 seconds a function will check is there any Twittes need to disappear depends on the user's chosen date.
 
 ## Project View Link:
 
