@@ -81,7 +81,7 @@ const PostForm = (props) => {
                         <i className="fas fa-user"></i>
                     </div>
                 </div>
-                <label>Twiter Title </label>
+                <label>Twitter Title </label>
                 <br></br>
                 <br></br>
                 <input type="text"  className="form-control" name="tweetName" placeholder="Twiit Title"
@@ -99,7 +99,7 @@ const PostForm = (props) => {
                         <i className="fas fa-user"></i>
                     </div>
                 </div>
-                <label>Twiter Description </label>
+                <label>Twitter Description </label>
                 <br></br>
                 <br></br>
                 <textarea type="text" className="form-control" name="tweetDesc" placeholder="Twiit description...."
@@ -119,7 +119,7 @@ const PostForm = (props) => {
                         <i className="fas fa-user"></i>
                     </div>
                 </div>
-                <label>Twiter Disappare Date </label>
+                <label>Twitter Disappare Date </label>
                 <br></br>
                 <br></br>
                 <input type="date"  className="form-control" name="deleteDate" 
